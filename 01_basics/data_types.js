@@ -16,5 +16,46 @@ symbol = uniquness
 
 # "use strict";   treat all code as newer version of JS
 
+avaScript is a dynamically typed language. Because data type will automatically 
+assigned at the time of compilation or code execution
+
 
 */
+/* 
+ Types of data types, Namely 1) Primitive
+                             2) Non Primitive data types (Rederence Type)
+Types of primitive data types
+String
+Number
+Boolean
+Null
+Undefined
+Symbol
+BigInt
+
+Types of Non premitive/reference types
+
+Array
+Objects
+Functions 
+                            */
+
+//Example of symbol data type. It is used to just create a unique ID or symbol for ex
+
+let userId = Symbol("123")
+let newUserID = Symbol("123")
+
+console.log(userId === newUserID);
+
+
+// Example of Arrays
+
+let heros = ["Khalid", "Umar", "Ali"]
+
+let newObj = {
+    name : "Farhan",
+    age : 22,
+    place : "Duabi"
+}
+
+
