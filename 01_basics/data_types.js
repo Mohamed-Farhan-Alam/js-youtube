@@ -59,3 +59,37 @@ let newObj = {
 }
 
 
+/* ********************************************Memory*****************************
+ There are 2 types 1) Stack. 2) Heap.
+Wherever we use primitive type of data types Stack type of memory is used.
+wherever we use reference type of data types heap memory is used.
+*/
+
+let ytName = "FarhanCodes"
+let YtAnotherName = ytName
+
+YtAnotherName = "AlamCodes"
+
+console.log(ytName);
+console.log(YtAnotherName);
+
+//above is the example of stack memeory types. Here every memory reference is allocated a stack and everytime it is changed 
+//a duplicate is created in another stack.
+
+let userOne = {
+    name: "Farhan",
+    email: "farhan@accenture.com"
+}
+
+let userTwo = userOne
+
+
+userTwo.email = "farhan@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+/* Above is the example of Heap memory as here data is stored in a heap memory 
+and evey reference is directed towards to that heap and collectively changed 
+for evey reference */
+
