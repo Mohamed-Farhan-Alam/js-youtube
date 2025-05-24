@@ -1,4 +1,4 @@
-// Singleton   here The The The The object is created using the Object.create() method
+// Singleton   here  The object is created using the Object.create() method
 // let newObj2 = Object.create(newObj)
 
 
@@ -34,8 +34,16 @@ newObj.lastLogin = ["2024-10-01", "2024-10-02", "2024-10-03", "2024-10-04"]
 //console.log(newObj);
 
 newObj.greetings = function(){
-    console.log(`Hello ${this.name}, your email is ${this.email} and you are from ${this.place}`);
+    //console.log(`Hello ${this.name}, your email is ${this.email} and you are from ${this.place}`);
 
 }
 
-console.log(newObj.greetings());
+//console.log(newObj.greetings());
+
+
+
+//**********************************************Singleton Object ********************************************************//
+
+const tinderUser = new Object()
+console.log(tinderUser);     
+      
